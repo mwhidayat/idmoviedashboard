@@ -1,0 +1,8 @@
+[theme]
+base = "light"
+
+primaryColor = "#2563EB"        # blue-600 (buttons, accents)
+backgroundColor = "#FFFFFF"     # main background
+secondaryBackgroundColor = "#F3F4F6"  # cards / sidebar
+textColor = "#111827"           # near-black, easy on eyes
+font = "sans serif"
