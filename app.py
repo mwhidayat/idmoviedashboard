@@ -32,7 +32,7 @@ div[data-testid="stExpander"] {
 # =========================================================
 @st.cache_data
 def load_and_clean_data():
-    df = pd.read_csv("data/imdb-indonesian.csv")
+    df = pd.read_csv("imdb-indonesian.csv")
     df.columns = [c.strip().lower() for c in df.columns]
 
     df['year'] = pd.to_numeric(df['year'], errors='coerce')
@@ -317,3 +317,4 @@ with st.expander("📂 Film Registry Explorer"):
 # =========================================================
 st.divider()
 st.caption("Data Source: IMDB Public Archive")
+
